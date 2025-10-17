@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Happy Birthday Babbyy!!</title>
+   <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Happy Birthdayy Babbyyy!</h1>
+      <p>Thats just a little gift. But I hope you like it</p>
+    </header>
+    <hr>
+    <details>
+      <summary style="font-size:16px;margin:0 0 8px;color:#374151">My love letter ♥</summary>
+    <p>
+        ...
+      </p>
+    </details>
+
+    <hr />
+    <div id="password-container">
+  <p>Bitte Passwort eingeben</p>
+  <input type="password" id="password-input" placeholder="Passwort">
+  <button id="password-submit">Bestätigen</button>
+  <p id="password-error" style="color:red;display:none;">Falsches Passwort!</p>
+</div>
+
+<div id="main-content" style="display:none;">
+
+    <section aria-labelledby="gifts-title">
+      <h2 id="gifts-title" style="font-size:16px;margin:0 0 8px;color:#374151">Geschenke</h2>
+      <div class="gifts" role="list">
+        <div class="gift" data-id="1" role="button" data-gift="Ein romantisches Abendessen bei November" aria-pressed="false" data-hint="Ich lade dich hiermit herzlich zu einem romatischen Abendessen bei November ein.">
+          <span class="emoji">🎁</span>
+          <span class="name">Geschenk Nr.1</span>
+        </div>
+        <div class="gift" data-id="2" role="button" data-gift="Wonder Releaf Centella Serum" aria-pressed="false" data-hint="Reduziert Rötungen und stärkt die Hautbarriere. Kann morgens oder abends verwendet werden. Sollte nicht mit AHA/BHA-Peeling verbunden werden.">
+          <span class="emoji">🎁</span>
+          <span class="name">Geschenk Nr.2</span>
+        </div>
+        <div class="gift" data-id="3" role="button" data-gift="Jeans" aria-pressed="false" data-hint="So hot my baby">
+          <span class="emoji">🎁</span>
+          <span class="name">Geschenk Nr.3</span>
+        </div>
+        <div class="gift" data-id="4" role="button" data-gift="Dark Spot Correcting Glow Serum" aria-pressed="false" data-hint="Morgens und abends nach dem Toner. Gezielt auf dunkle Stellen auftragen. Danach Moistuizer. Nicht mit AHA/BHA Peeling verwenden. Sonnenschutz danach ist wichtig">
+          <span class="emoji">🎁</span>
+          <span class="name">Geschenk Nr.4</span>
+        </div>
+       <div class="gift" data-id="5" role="button" data-gift="345 Relief Cream" aria-pressed="false" data-hint="Moistuizer">
+          <span class="emoji">🎁</span>
+          <span class="name">Geschenk Nr.5</span>
+        </div>
+        <div class="gift" data-id="6" role="button" data-gift="Pimple Patches" aria-pressed="false" data-hint="You know this gift already but you needed more">
+          <span class="emoji">🎁</span>
+          <span class="name">Geschenk Nr.6</span>
+        </div>
+        <div class="gift" data-id="7" role="button"  data-gift="Pyjama Hose" aria-pressed="false" data-hint="I think now you have enough pyjama hosen">
+          <span class="emoji">🎁</span>
+          <span class="name">Geschenk Nr.7</span>
+        </div>
+         <div class="gift" data-id="8" role="button" data-gift="Rasierer" aria-pressed="false" data-hint="Rasierer für deine Haare im Gesicht">
+          <span class="emoji">🎁</span>
+          <span class="name">Geschenk Nr.8</span>
+        </div>
+      </div>
+<div id="modal" class="modal" aria-hidden="true" role="dialog" aria-modal="true">
+      <div class="card">
+        <div id="modal-content" style="font-weight:700;margin-bottom:6px;"></div>
+        <button id="modal-close">Schließen</button>
+      </div>
+  </div>
+</div>
+
+</div>
+
+</div>
+
+    </section>
+    <hr>
+    <br>
+
+    <section aria-labelledby="gallery-title" style="margin-top:8px;">
+      <h2 id="gallery-title" style="font-size:16px;margin:6px 0 10px;color:#374151">My cute babyboy</h2>
+      <div class="gallery">
+        <img src="pictures/IMG_1864.jpg" alt="My sleeping baby" />
+        <img src="pictures/IMG_2562.jpg" alt="Another picture of my sleeping bf" />
+        <img src="pictures/IMG_2981.jpg" alt="Spa dayy" />
+        <img src="pictures/IMG_3029.jpg" alt="Always so touchy" />
+        <img src="pictures/IMG_3120.jpg" alt="what a gentleman holding my cutsy bag" />
+        <img src="pictures/IMG_4023.jpg" alt="handrolls were so yummy" />
+        <img src="pictures/IMG_5468.jpg" alt="handrolls were so yummy" />
+        <img src="pictures/IMG_5993.jpg" alt="handrolls were so yummy" />
+        <img src="pictures/IMG_6036.png" alt="handrolls were so yummy" />
+      </div>
+    </section>
+
+    <footer>Did you like it? Its really not much</footer>
+  </div>
+
+  <!-- Einfaches Modal für Fokus/Option -->
+  <div id="modal" class="modal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="card">
+      <div id="modal-text" style="font-weight:700;margin-bottom:6px;"></div>
+      <div style="color:var(--muted);font-size:14px;">Tippe außerhalb oder auf Schließen</div>
+      <button id="modal-close">Schließen</button>
+    </div>
+  </div>
+   <script src="code.js"></script>
+</body>
+</html>
